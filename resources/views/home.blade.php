@@ -14,13 +14,12 @@
                     <div class="p-2"><strong>212</strong> following</div>
                 </div>
                 <div class="pt-4">
-                     <strong>Larajo</strong>
+                     <strong>{{$user->profile->title}}</strong>
                 </div>
                 <div>
-                    Hello!I am JoseWald.I am a back-end developer and I did this app called LaraJo that is combined by  my name and Laravel.
-                    Larajo is an Instagram clone app.I hope you enjoy it.
+                    {{$user->profile->description}}
                 </div>
-                <div> <a href="#">JoseWald.github.account</a></div>
+                <div> <a href="#">{{$user->profile->url }}</a></div>
             </div>
         </div>
         <div class="row pt-4">
