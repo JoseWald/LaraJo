@@ -7,14 +7,14 @@
                     <img src="/svg/github.png" width="200px" height="200px" alt="">
             </div>
             <div class="col-9 p-5">
-                <div><h1>LaraJo</h1></div>
+                <div><h1>{{ $user->username}}</h1></div>
                 <div  class="d-flex">
                     <div class="p-2"><strong>153</strong> posts</div>
                     <div class="p-2"><strong>23K</strong>followers </div>
                     <div class="p-2"><strong>212</strong> following</div>
                 </div>
                 <div class="pt-4">
-                     <strong>JoseWald</strong>
+                     <strong>Larajo</strong>
                 </div>
                 <div>
                     Hello!I am JoseWald.I am a back-end developer and I did this app called LaraJo that is combined by  my name and Laravel.
