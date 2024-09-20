@@ -7,7 +7,10 @@
                     <img src="/svg/github.png" width="200px" height="200px" alt="">
             </div>
             <div class="col-9 p-5">
-                <div><h1>{{ $user->username}}</h1></div>
+                <div class=" d-flex justify-content-between align-items-baseline">
+                    <h1>{{ $user->username}}</h1>
+                    <a href="#">Add new post</a>
+                </div>
                 <div  class="d-flex">
                     <div class="p-2"><strong>153</strong> posts</div>
                     <div class="p-2"><strong>23K</strong>followers </div>
