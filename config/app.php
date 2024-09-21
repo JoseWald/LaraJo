@@ -84,6 +84,10 @@ return [
 
     'faker_locale' => env('APP_FAKER_LOCALE', 'en_US'),
 
+    'aliases' => [
+        'Image' => Intervention\Image\Facades\Image::class,
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Encryption Key
